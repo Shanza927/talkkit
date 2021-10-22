@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:300italic,700italic,400,300);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");
+@mixin typography(
+  $fontFamily,
+  $fontSize,
+  $fontWeight,
+  $lineHeight,
+  $letterSpacing
+) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  font-style: normal;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  letter-spacing: $letterSpacing;
+  text-align: center;
+}

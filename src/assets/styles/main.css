@@ -1,0 +1,177 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:300italic,700italic,400,300);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");
+.page {
+  margin: 0%;
+  width: auto;
+  height: 100vh;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.heading1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 72px;
+  letter-spacing: 2.75px;
+  text-align: center;
+  color: #212529;
+}
+
+.heading2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 72px;
+  letter-spacing: 2.75px;
+  text-align: center;
+}
+
+.heading3 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 72px;
+  letter-spacing: 2.75px;
+  text-align: center;
+}
+
+.heading4 {
+  font-family: Poppins;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 50px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  text-align: left;
+}
+
+.heading5 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 72px;
+  letter-spacing: 2.75px;
+  text-align: center;
+}
+
+.heading6 {
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  text-align: center;
+}
+
+.subtitle1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 72px;
+  letter-spacing: 2.75px;
+  text-align: center;
+}
+
+.subtitle2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 72px;
+  letter-spacing: 2.75px;
+  text-align: center;
+}
+
+.subtitle3 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 72px;
+  letter-spacing: 2.75px;
+  text-align: center;
+}
+
+.body1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 72px;
+  letter-spacing: 2.75px;
+  text-align: center;
+}
+
+.body2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 72px;
+  letter-spacing: 2.75px;
+  text-align: center;
+}
+
+.button-text {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 72px;
+  letter-spacing: 2.75px;
+  text-align: center;
+}
+
+.caption {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 72px;
+  letter-spacing: 2.75px;
+  text-align: center;
+}
+
+.overline {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 72px;
+  letter-spacing: 2.75px;
+  text-align: center;
+}
+
+.danger-color {
+  background-color: #f57778;
+}
+
+.status-color {
+  background-color: #aedef5;
+}
+
+.danger {
+  color: #f57778;
+}
+
+.primary {
+  color: #364665;
+}
+
+.success {
+  color: #dffdd5;
+}
+/*# sourceMappingURL=main.css.map */

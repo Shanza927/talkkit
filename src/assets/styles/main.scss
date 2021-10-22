@@ -1,0 +1,83 @@
+
+@import "../styles/mixin/typographymixins.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");
+
+.page {
+  margin: 0%;
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.display {
+  display: none;
+}
+
+// @mixin typography($fontFamily, $fontSize, $fontWeight, $lineHeight, $letterSpacing, $textAlign) {
+
+/* Headline / Headline 4 - Regular - 33px */
+.heading4 {
+  @include typography(Poppins, 33px, normal, 49px, 0.25px);
+  text-align: left;
+  font-style: normal;
+  color: #000000;
+}
+
+.heading5 {
+  @include typography(Poppins, 23px, 600px, 34px, 0.25px);
+  font-style: normal;
+  color: #000000;
+}
+
+.heading6 {
+  @include typography(Poppins, 19px, 500px, 28px, 0.15px);
+}
+.subheading {
+  @include typography(Poppins, 16px, 500px, 24px, 1px);
+  /* Sub Heading/ Sub Heading 1 - Medium - 16px */
+  font-style: normal;
+  color: #343A40;
+}
+
+.subtitle1 {
+  @include typography(Poppins, 15px, normal, 22px, 0.15px);
+  font-style: normal;
+  color: #000000;
+}
+
+// @mixin typography($fontFamily, $fontSize, $fontWeight, $lineHeight, $letterSpacing, $textAlign) {
+/* Subtitle / Subtitle 2 - Medium - 13px */
+.subtitle2 {
+  @include typography(Poppins, 13px, 500px, 19px, 0.1px);
+  font-style: normal;
+  color: #000000;
+}
+/* Subtitle/Subtitle 1 - Regular- 13px */
+
+.body1 {
+  @include typography(Poppins, 15px, normal, 22px, 0.5px);
+  /* Body / Body 1 - Regular - 15px */
+  font-style: normal;
+  color: #6C757D;
+}
+
+.body2 {
+  @include typography(Poppins, 13px, normal, 19px, 0.5px);
+  /* Body / Body 2 - Regular - 13px */
+  font-family: Poppins;
+  color: #000000;
+}
+
+.button-text {
+  @include typography(Poppins, 48px, 500px, 72px, 2.75px);
+}
+
+.caption {
+  /* Caption / Caption - Regular - 12px */
+  @include typography(Poppins, 12px, normal, 0.4px, 18px);
+  font-style: normal;
+  color: #000000;
+}
+// @mixin typography($fontFamily, $fontSize, $fontWeight, $letterSpacing, $lineHight, $color)
+
